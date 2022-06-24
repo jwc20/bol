@@ -19,4 +19,4 @@ Update:
 - merged the EPIJudge(only Python files) fork with this repo, and
 - started doing only the easy problems on EPI per chapter. Will come back for the medium/hard problems after going through all the chapters.
 
-![leetcode trello board 6/23/22](my_trello1.png)
+![leetcode trello board 6/23/22](my_trello2.png)
