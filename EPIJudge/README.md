@@ -1,12 +1,16 @@
 # EPI Judge
 
+[From EPIJudge repo](https://github.com/adnanaziz/EPIJudge)
+
 My copy, only python.
 
 ## Beta 5
 
-## Resources:
-[EPI-to-LC](https://github.com/slgriff/EPI-to-LC)
-[neetcode](https://neetcode.io/)
+#### Resources:
+
+- [EPI-to-LC](https://github.com/slgriff/EPI-to-LC)
+
+- [neetcode](https://neetcode.io/)
 
 ### Problem to Program Mapping
 
@@ -239,4 +243,5 @@ My copy, only python.
 - What compilers are supported for solutions?
     - Python
       - **Python** 3.6 and newer 
+
 
