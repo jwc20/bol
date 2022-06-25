@@ -1,5 +1,11 @@
 # Questions to ask me
 
+
+### Before Before
+
+- Am I understanding the question correctly?
+- Have I communicated effectively and quickly with the interviewer what my understanding of the question is?
+
 ### Before
 
 #### Constraints?
