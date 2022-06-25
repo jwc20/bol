@@ -13,6 +13,10 @@
 
 
 Update:
+
+#### 6/25/22 
+- Added directory for scans of problems I worked through on paper.
+
 #### 6/24/22
 - Added Edbert Chan's "Welcome To The Coding Interview - You Suck"
 
