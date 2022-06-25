@@ -19,7 +19,7 @@ Update:
 #### 6/23/22
 
 - Started doing something similar to the [Leitner system](https://www.mindedge.com/learning-science/the-leitner-system-how-does-it-work/),
-- reduced resources used (still using leetcode discussion discussion when available),
+- reduced resources used (still using leetcode discussion when available),
 - merged the EPIJudge(only Python files) fork with this repo, and
 - started doing only the easy problems on EPI per chapter. Will come back for the medium/hard problems after going through all the chapters.
 
