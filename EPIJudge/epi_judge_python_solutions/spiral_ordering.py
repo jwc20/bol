@@ -5,6 +5,7 @@ from test_framework import generic_test
 
 def matrix_in_spiral_order(square_matrix: List[List[int]]) -> List[int]:
     def matrix_layer_in_clockwise(offset):
+
         if offset == len(square_matrix) - offset - 1:
             # square_matrix has odd dimension, and we are at the center of the
             # matrix square_matrix.
@@ -25,8 +26,14 @@ def matrix_in_spiral_order(square_matrix: List[List[int]]) -> List[int]:
     return spiral_ordering
 
 
+'''
 if __name__ == '__main__':
     exit(
         generic_test.generic_test_main('spiral_ordering.py',
                                        'spiral_ordering.tsv',
                                        matrix_in_spiral_order))
+        '''
+
+print(matrix_in_spiral_order([[1,2,3], [4,5,6], [7,8,9]]))
+print(matrix_in_spiral_order([[1,2,3,4],[5,6,7,8],[9, 10, 11, 12],[13,14,15,16]]))
+
