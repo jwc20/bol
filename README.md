@@ -18,6 +18,10 @@
 
 Update:
 
+#### 6/27/22
+
+- Added problem set containing only the problems in EPI.
+
 #### 6/25/22
 
 - Added directory for scans of problems I worked through on paper.

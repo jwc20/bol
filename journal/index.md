@@ -1,4 +1,4 @@
-# Journal
+# ~~Journal~~ Captain's Log
 
 ## 6/26/22
 - [Time track](https://docs.google.com/spreadsheets/d/1Jy4TRW5geWFlUVqOwCHh32BZSAPPkbB3LgF2NXbsoaQ/edit?usp=sharing)
