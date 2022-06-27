@@ -8,16 +8,22 @@
 
 - [Edbert](https://tinyurl.com/4hdj47mv)
 
+#### Other
 
-
-
+- [Doing well in your courses](https://cs.stanford.edu/people/karpathy/advice.html)
+- [Scott Young](https://www.scotthyoung.com/blog/articles/)
+- [Cal Newport](https://www.calnewport.com/blog/) [His advice](https://youtu.be/uS5jlG16zKs)
+- [Peak by Anders Ericsson and Robert Pool](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
+- [Andrew Huberman](https://youtu.be/xJ0IBzCjEPk)
 
 Update:
 
-#### 6/25/22 
+#### 6/25/22
+
 - Added directory for scans of problems I worked through on paper.
 
 #### 6/24/22
+
 - Added Edbert Chan's "Welcome To The Coding Interview - You Suck"
 
 #### 6/23/22
