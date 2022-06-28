@@ -10,11 +10,11 @@
 
 #### Other
 
-- [Doing well in your courses](https://cs.stanford.edu/people/karpathy/advice.html)
+- [Karpathy's advice for preparing for exam in school](https://cs.stanford.edu/people/karpathy/advice.html)
 - [Scott Young](https://www.scotthyoung.com/blog/articles/)
-- [Cal Newport](https://www.calnewport.com/blog/) [His advice](https://youtu.be/uS5jlG16zKs)
+- [Cal Newport](https://www.calnewport.com/blog/) [and his advice to people who want to become software engineers with little background.](https://youtu.be/uS5jlG16zKs)
 - [Peak by Anders Ericsson and Robert Pool](https://www.amazon.com/Peak-Secrets-New-Science-Expertise/dp/0544947223/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=)
-- [Andrew Huberman](https://youtu.be/xJ0IBzCjEPk)
+- [Andrew Huberman on learning](https://youtu.be/xJ0IBzCjEPk)
 
 Update:
 
