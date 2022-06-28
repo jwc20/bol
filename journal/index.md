@@ -1,5 +1,11 @@
 # ~~Journal~~ Captain's Log
 
+## 6/28/22
+- Dear diary, I got the wrong solution to EPI 5.5 again. Sned help.
+
+## 6/27/22
+- Looked over problems I did and did some research for my next project (edgar-fin-api). It seems that this project might take more time than I initially thought, so I'm not gonna do it. 
+
 ## 6/26/22
 - [Time track](https://docs.google.com/spreadsheets/d/1Jy4TRW5geWFlUVqOwCHh32BZSAPPkbB3LgF2NXbsoaQ/edit?usp=sharing)
 
