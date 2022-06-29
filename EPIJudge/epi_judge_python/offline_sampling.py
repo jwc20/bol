@@ -10,12 +10,17 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def random_sampling(k: int, A: List[int]) -> None:
-    for i in range(0, len(A) - k):
-        r = random.randint(0, k)
-        # print(i, r, A[r])
-        del A[r]
+    # for i in range(0, len(A) - k):
+    #     r = random.randint(0, k)
+    #     # print(i, r, A[r])
+    #     del A[r]
+    # return A
 
+    for i in range(k):
+        rand_i = random.randint(i, len(A) -1)
+        A[i], A[rand_i] = A[rand_i], A[i]
     return A
+
 
 
 
