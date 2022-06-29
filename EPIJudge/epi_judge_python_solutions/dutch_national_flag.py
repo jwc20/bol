@@ -8,7 +8,7 @@ from test_framework.test_utils import enable_executor_hook
 RED, WHITE, BLUE = range(3)
 
 
-def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
+def dutch_flag_partition(pivot_index: int, A: List[int]) -> List[int]:
 
     pivot = A[pivot_index]
     # Keep the following invariants during partitioning:
@@ -19,6 +19,7 @@ def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
     smaller, equal, larger = 0, 0, len(A)
     # Keep iterating as long as there is an unclassified element.
     while equal < larger:
+        print(equal, larger)
         # A[equal] is the incoming unclassified element.
         if A[equal] < pivot:
             A[smaller], A[equal] = A[equal], A[smaller]
@@ -28,7 +29,9 @@ def dutch_flag_partition(pivot_index: int, A: List[int]) -> None:
         else:  # A[equal] > pivot.
             larger -= 1
             A[equal], A[larger] = A[larger], A[equal]
+    return A
 
+print(dutch_flag_partition(2,[1,0,2,3,0,2]))
 
 @enable_executor_hook
 def dutch_flag_partition_wrapper(executor, A, pivot_idx):
@@ -56,8 +59,10 @@ def dutch_flag_partition_wrapper(executor, A, pivot_idx):
         raise TestFailure('Some elements are missing from original array')
 
 
+'''
 if __name__ == '__main__':
     exit(
         generic_test.generic_test_main('dutch_national_flag.py',
                                        'dutch_national_flag.tsv',
                                        dutch_flag_partition_wrapper))
+        '''
