@@ -18,6 +18,19 @@
 
 Update:
 
+#### 6/30/22
+
+- Change trello. Auto-regulating on a scale of 1-3 (happy, sad, and supersad emoji).
+- If I get the design wrong, move the card to supersad.
+- If I get the design idea on the right track but got the code wrong, move the card to supersad because that actually means my design was all over the place or vague.
+- If I'm happy with what I got, move card to happy.
+- Read the evaluation I wrote and reattempt problems on supersad every 2-3 days and sad everyday (if I remember the solution, just read the evaluation). Do not read the evaluation for happy problem cards and reattempt once every week.
+- Don't move on to next chapter until I get at least 75% of the problems design correct.
+- Don't write code, only design. 
+- Follow the question.md 
+
+![leetcode trello board 6/30/22](my_trello3.png)
+
 #### 6/27/22
 
 - Added problem set containing only the problems in EPI.
