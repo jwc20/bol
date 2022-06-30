@@ -1,5 +1,8 @@
 # ~~Journal~~ Captain's Log
 
+## 6/30/22
+- Writing codes on paper is overkill, just design algorithm on paper then code on keyboard.
+
 ## 6/29/22
 
 - Went over all the problems in chapter 5 I've done so far.
