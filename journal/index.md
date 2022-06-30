@@ -1,20 +1,28 @@
 # ~~Journal~~ Captain's Log
 
+## 6/29/22
+
+- Went over all the problems in chapter 5 I've done so far.
+- The ideas were correct but was inadequate in the actual coding and sometimes pseudocode.
+
 ## 6/28/22
+
 - Dear diary, I got the wrong solution to EPI 5.5 again. Sned help.
 
 ## 6/27/22
-- Looked over problems I did and did some research for my next project (edgar-fin-api). It seems that this project might take more time than I initially thought, so I'm not gonna do it. 
+
+- Looked over problems I did and did some research for my next project (edgar-fin-api). It seems that this project might take more time than I initially thought, so I'm not gonna do it.
 
 ## 6/26/22
+
 - [Time track](https://docs.google.com/spreadsheets/d/1Jy4TRW5geWFlUVqOwCHh32BZSAPPkbB3LgF2NXbsoaQ/edit?usp=sharing)
 
 ## 6/25/22
+
 - Made this journal.
 
 ### TODO
+
 - Derive a barebone skeleton of the patterns from EPI.
 - Memorize it (for speed).
 - Think back to the skeleton when finding a similar problem.
-
-
