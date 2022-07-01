@@ -27,8 +27,8 @@ Update:
 - Read the evaluation I wrote and reattempt problems on supersad every 2-3 days and sad everyday (if I remember the solution, just read the evaluation). Do not read the evaluation for happy problem cards and reattempt once every week.
 - Put problem cards in zero pass if I want to go over it again.
 - Don't move on to next chapter until I get at least 75% of the problems design correct.
-- Don't write code on paper, only design. 
-- Follow the question.md 
+- Don't write code on paper, only design.
+- Follow the question.md
 
 ![leetcode trello board 6/30/22](my_trello3.png)
 
@@ -56,3 +56,14 @@ Update:
 ### My setup:
 
 ![leetcode trello board](my_trello.png)
+
+## FAQ
+
+- Huh?
+  - This is a personal study log I am making to keep track of progress and nonprogress.
+- What?
+  - I just told you.
+- Why?
+  - People typically are embarrassed when starting, so they usually don't share with other people their initial steps to reaching mastery or competency. It's disappointing because seeing how people begin when they are confused and when they get things right in their early careers is what interests me the most. So this is why this repo exists.
+- Where?
+  - It's time for you to leave.
