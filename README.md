@@ -57,13 +57,3 @@ Update:
 
 ![leetcode trello board](my_trello.png)
 
-## FAQ
-
-- Huh?
-  - This is a personal study log I am making to keep track of progress and nonprogress.
-- What?
-  - I just told you.
-- Why?
-  - People typically are embarrassed when starting, so they usually don't share with other people their initial steps to reaching mastery or competency. It's disappointing because seeing how people begin when they are confused and when they get things right in their early careers is what interests me the most. So this is why this repo exists.
-- Where?
-  - It's time for you to leave.
