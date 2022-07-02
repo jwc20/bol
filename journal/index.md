@@ -1,5 +1,8 @@
 # ~~Journal~~ Captain's Log
 
+## 7/1/22
+- Took a break.
+
 ## 6/30/22
 - Writing codes on paper is overkill, just design algorithm on paper then code on keyboard.
 
