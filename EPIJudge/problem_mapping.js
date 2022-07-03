@@ -532,7 +532,7 @@ problem_mapping = {
                 "total": 501
             },
             "Python: replace_and_remove.py": {
-                "passed": 0,
+                "passed": 501,
                 "total": 501
             }
         },
@@ -560,7 +560,7 @@ problem_mapping = {
                 "total": 103
             },
             "Python: reverse_words.py": {
-                "passed": 0,
+                "passed": 103,
                 "total": 103
             }
         },
