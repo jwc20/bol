@@ -1,5 +1,10 @@
 # ~~Journal~~ Captain's Log
 
+## 7/2/22
+- Went over all the problems in chapter 6 except for 6.7. 
+- Had the general sense or idea of the solution but could not execute on the code to get it right.
+- There are a number of methods used in the textbook that I need to learn. (functools, reduce, hexdigits, lambda, ...)
+
 ## 7/1/22
 - Took a break.
 
