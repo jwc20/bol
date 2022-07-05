@@ -18,6 +18,12 @@
 
 Update:
 
+#### 7/5/22
+
+- Started using habitory to track problems I did.
+
+![habitory](habitory.png)
+
 #### 6/30/22
 
 - Changed trello. Auto-regulating on a scale of 1-3 (happy, sad, and supersad emoji).
