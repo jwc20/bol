@@ -27,11 +27,11 @@ Update:
 
 #### 6/30/22
 
-- Changed trello. Auto-regulating on a scale of 1-3 (happy, sad, and supersad emoji).
-- If I get the design wrong, move the card to supersad.
-- If I get the design idea on the right track but got the code wrong, move the card to supersad because that actually means my design was all over the place or vague.
-- If I'm happy with what I got, move card to happy.
-- Read the evaluation I wrote and reattempt problems on supersad every 2-3 days and sad everyday (if I remember the solution, just read the evaluation). Do not read the evaluation for happy problem cards and reattempt once every week.
+- Changed trello. Auto-regulating on a scale of 1-3 (😊, 🤨, and 🙁 emoji).
+- If I get the design wrong, move the card to 🙁.
+- If I get the design idea on the right track but got the code wrong, move the card to 🙁 because that actually means my design was all over the place or vague.
+- If I'm happy with what I got, move card to 😊.
+- Read the evaluation I wrote and reattempt problems on 🙁 and 🤨 around 2-3 days (if I remember the solution, just read the evaluation). Do not read the evaluation for 😊 problem cards and reattempt once every week.
 - Put problem cards in zero pass if I want to go over it again.
 - Don't move on to next chapter until I get at least 75% of the problems design correct.
 - Don't write code on paper, only design.

@@ -1,17 +1,27 @@
 # ~~Journal~~ Captain's Log
 
-## 7/5/22 
+## 7/6/22
+
+- Since I am entirely new on the topic of Linked List, lot of my time was reading and trying to understand the solutions from EPI, Neetcode, or Grokking (EPI is most of the time fine).
+- I've been writing the solution code of blank paper and scrutinized it line-by-line and try to write it again without looking.
+  - This method was influenced by Benjamin Franklin's approach to learning how to write; where he copied somebody else's writing and actively recall it.
+
+## 7/5/22
+
 - Bought Grokking, this will be the last time I spend money on interview prep.
 
 ## 7/2/22
-- Went over all the problems in chapter 6 except for 6.7. 
+
+- Went over all the problems in chapter 6 except for 6.7.
 - Had the general sense or idea of the solution but could not execute on the code to get it right.
 - There are a number of methods used in the textbook that I need to learn. (functools, reduce, hexdigits, lambda, ...)
 
 ## 7/1/22
+
 - Took a break.
 
 ## 6/30/22
+
 - Writing codes on paper is overkill, just design algorithm on paper then code on keyboard.
 
 ## 6/29/22
