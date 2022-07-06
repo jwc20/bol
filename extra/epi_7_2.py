@@ -1,12 +1,11 @@
+from typing import Optional
 
-
-
-from typing import Optional 
 
 class ListNode:
     def __init__(self, data=0, next=None):
-        self.data = data 
-        self.next = next 
+        self.data = data
+        self.next = next
+
     def display(self):
         printval = self
         lists = []
@@ -16,41 +15,23 @@ class ListNode:
         print(lists)
 
 
+def func(L: ListNode, start: int, finish: int) -> Optional[ListNode]:
+    dummy = sublist = ListNode(0, L)
 
-def func(L: ListNode, s: int, f: int) -> Optional[ListNode]:
-    # start = s 
-    # end = f 
+    for _ in range(1, start):
+        sublist = sublist.next
+    sublist_iter = sublist.next
 
-    # count = 0
-    # while L and count <= s:
-    #     count += 1
-    #     L.next 
-
-    # previous = L 
-    # current = L.next 
-    # print(previous, current)
-    # 
-    # while start < end:
-    #     current.next, previous, current = previous, current, current.next 
-    #     start += 1
-
-    # return previous
-
-    current, previous = L, None
-
-    count = 0
-    while L and count < s-1:
-        previous, current.next = current, previous
-        count += 1
-
+    for _ in range(finish - start):
+        temp = sublist_iter.next
+        sublist_iter.next, temp.next, sublist.next = (temp.next, sublist.next, temp)
     
-    while s < f:
-        current.next, previous, current = previous, current, current.next 
-        s += 1
 
-    return previous
+    return dummy.next
+    
+
 
 a = ListNode(1, ListNode(2, ListNode(3, ListNode(4, ListNode(5)))))
-
-# func(a, 1, 2).display()
 ListNode(0, a).display()
+
+func(a, 2, 4).display()
