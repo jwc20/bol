@@ -21,6 +21,7 @@ Update:
 #### 7/5/22
 
 - Started using habitory to track problems I did.
+- Started Grokking.
 
 ![habitory](habitory.png)
 

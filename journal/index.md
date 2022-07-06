@@ -1,5 +1,8 @@
 # ~~Journal~~ Captain's Log
 
+## 7/5/22 
+- Bought Grokking, this will be the last time I spend money on interview prep.
+
 ## 7/2/22
 - Went over all the problems in chapter 6 except for 6.7. 
 - Had the general sense or idea of the solution but could not execute on the code to get it right.
