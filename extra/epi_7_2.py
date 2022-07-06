@@ -16,15 +16,15 @@ class ListNode:
 
 
 def func(L: ListNode, start: int, finish: int) -> Optional[ListNode]:
-    dummy = sublist = ListNode(0, L)
+    dummy = previous = ListNode(0, L)
 
     for _ in range(1, start):
-        sublist = sublist.next
-    sublist_iter = sublist.next
+        previous = previous.next
+    current = previous.next
 
     for _ in range(finish - start):
-        temp = sublist_iter.next
-        sublist_iter.next, temp.next, sublist.next = (temp.next, sublist.next, temp)
+        temp = current.next
+        current.next, temp.next, previous.next = (temp.next, previous.next, temp)
     
 
     return dummy.next
