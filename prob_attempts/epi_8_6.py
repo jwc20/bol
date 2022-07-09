@@ -1,7 +1,11 @@
 from typing import List
 
-from binary_tree_node import BinaryTreeNode
-from test_framework import generic_test
+
+class BinaryTreeNode:
+    def __init__(self, data=None, left=None, right=None):
+        self.data = data
+        self.left = left
+        self.right = right
 
 
 def binary_tree_depth_order(tree: BinaryTreeNode) -> List[List[int]]:
@@ -58,12 +62,3 @@ bt.right.right = BinaryTreeNode(7)
 # bt.right.left = BinaryTreeNode(5)
 
 print(binary_tree_depth_order(bt))
-
-
-"""
-if __name__ == '__main__':
-    exit(
-        generic_test.generic_test_main('tree_level_order.py',
-                                       'tree_level_order.tsv',
-                                       binary_tree_depth_order))
-        """
