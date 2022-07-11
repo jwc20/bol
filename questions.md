@@ -4,24 +4,24 @@
 ### Before Before
 
 - Am I understanding the question correctly?
-- Have I communicated effectively and quickly with the interviewer what my understanding of the question is?
+    - Have I communicated effectively and quickly with the interviewer what my understanding of the question is?
 
 ### Before
 
 #### Constraints?
 
 - What is the input? What is the output?
-- Is the input sorted?
-- If we're working with numbers, are we working with only nonnegative numbers?
-- Should I return an empty list or 0 or -1 or some boolean if the input is not valid (if the input is an empty string, list, etc.)?
+    - Is the input sorted?
+    - If we're working with numbers, are we working with only nonnegative numbers?
+    - Should I return an empty list or 0 or -1 or some boolean if the input is not valid (if the input is an empty string, list, etc.)?
 
 #### Ideas and assumptions:
 
-- ***What is the simplest, most naive solution?***
-- What other solutions can I come up with?
-	- Can I come up with a better solution, or should I build on the naive solution?
-- What are the time and space complexity of the solutions I am not working with?
-- What is the time and space complexity of the solution I am working with?
+- ***What is the simplest, most naive approach?***
+- What other approaches can I come up with?
+	- Can I come up with a better approach?
+	- Can I build on the naive approach?
+- What are the time and space complexity of all approaches I had come up with?
 
 ### During
 
@@ -32,7 +32,7 @@
   - Can I draw my solution out step-by-step using stack trace?
 - Are there any edge cases?
 
-- Am I keeping track of all the variables at each step? (Ex: print(i, A[i], A[i+1])
+- Am I keeping track of all the variables at each step?
 
 ### After
 
