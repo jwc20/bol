@@ -16,6 +16,12 @@
 
 ## Updates/notes:
 
+
+## 7/12/22
+ 
+ - In the EPI, I decided to do the problems recommended in the Scenario 1 (The first problem for each chapter typically) and read the introduction for each chapters. This way, I can get coverage for all the materials and for form overall big picture idea and connections between topics.
+
+
 ## 7/11/22
 
 - Merged journal with this readme.
