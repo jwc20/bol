@@ -1,30 +1,40 @@
+from collections import deque
 
 
-
-
-def find_subarrays(A, target):
+def find_subarrays(arr, target):
     result = []
-    A.sort()
+    product = 1
+    left = 0
+    for right in range(len(arr)):
+        product *= arr[right]
+        while product >= target and left <= right:
+            product /= arr[left]
+            left += 1
+        # since the product of all numbers from left to right is less than the target therefore,
+        # all subarrays from left to right will have a product less than the target too; to avoid
+        # duplicates, we will start with a subarray containing only arr[right] and then extend it
+        temp_list = deque()
+        '''
+        for i in range(right, left - 1, -1):
+            temp_list.appendleft(arr[i])
+            result.append(list(temp_list))
+            '''
 
-    for num in A:
-        if num < target:
-            result.append([num])
-        
-
-    for i in range(len(A)):
-        left, right = i+1, len(A) -1 
-        while left < right: 
-            curr_prod = A[left] * A[right]
-            if curr_prod < target:
-                for j in range(right - left):
-                    result.append([A[left], A[j]])
-                left += 1
-            else:
-                right -= 1
-
-
+        for i in reversed(range(left, right + 1)):
+            temp_list.appendleft(arr[i])
+            result.append(list(temp_list))
 
     return result
 
+# [[2], [5], [2, 5], [3], [5, 3], [10]]
+# [[8], [2], [8, 2], [6], [2, 6], [5], [6, 5]]
 
-print(find_subarrays([2,5,3,10], 30))
+def main():
+    print(find_subarrays([2, 5, 3, 10], 30))
+    print(find_subarrays([8, 2, 6, 5], 50))
+
+    print([i for i in reversed(range(0, 5))])
+    print([i for i in range(5, -1, -1)])
+
+
+main()
