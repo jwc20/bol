@@ -12,13 +12,14 @@ def matrix_in_spiral_order(square_matrix: List[List[int]]) -> List[int]:
             spiral_ordering.append(square_matrix[offset][offset])
             return
 
-        spiral_ordering.extend(square_matrix[offset][offset:-1 - offset])
+        spiral_ordering.extend(square_matrix[offset][offset : -1 - offset])
         spiral_ordering.extend(
-            list(zip(*square_matrix))[-1 - offset][offset:-1 - offset])
-        spiral_ordering.extend(square_matrix[-1 - offset][-1 -
-                                                          offset:offset:-1])
+            list(zip(*square_matrix))[-1 - offset][offset : -1 - offset]
+        )
+        spiral_ordering.extend(square_matrix[-1 - offset][-1 - offset : offset : -1])
         spiral_ordering.extend(
-            list(zip(*square_matrix))[offset][-1 - offset:offset:-1])
+            list(zip(*square_matrix))[offset][-1 - offset : offset : -1]
+        )
 
     spiral_ordering: List[int] = []
     for offset in range((len(square_matrix) + 1) // 2):
@@ -26,14 +27,17 @@ def matrix_in_spiral_order(square_matrix: List[List[int]]) -> List[int]:
     return spiral_ordering
 
 
-'''
+"""
 if __name__ == '__main__':
     exit(
         generic_test.generic_test_main('spiral_ordering.py',
                                        'spiral_ordering.tsv',
                                        matrix_in_spiral_order))
-        '''
+        """
 
-print(matrix_in_spiral_order([[1,2,3], [4,5,6], [7,8,9]]))
-print(matrix_in_spiral_order([[1,2,3,4],[5,6,7,8],[9, 10, 11, 12],[13,14,15,16]]))
-
+print(matrix_in_spiral_order([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+print(
+    matrix_in_spiral_order(
+        [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+    )
+)
