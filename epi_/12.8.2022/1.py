@@ -12,9 +12,17 @@
 
 
 from typing import List
+from doctest import testmod
 
 
 def func1(A: List[int]) -> List[int]:
+    """Reverses an array.
+
+    >>> func1([1,2,3,4])
+    [4, 3, 2, 1]
+    >>> func1([2,3,4])
+    [4, 3, 2]
+    """
     l, r = 0, len(A) - 1
     while l < r:
         A[l], A[r] = A[r], A[l]
@@ -22,4 +30,15 @@ def func1(A: List[int]) -> List[int]:
     return A
 
 
-print(func1([1, 2, 3, 4]))
+# print(func1([1, 2, 3, 4]))
+
+# def test()
+#     assert func1([1,2,3,4]) == [4,3,2,1]
+
+
+# print(testmod())
+
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
