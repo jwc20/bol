@@ -7,6 +7,9 @@
 
 ## Update
 
+#### 2/7/2023
+- Accidently deleted all logs and practice diary when clearing google drive storage :((.
+
 #### 7/13/22
 
 - Moved everything to old directory.
