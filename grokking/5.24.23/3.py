@@ -56,8 +56,8 @@ def main():
     print("Squares: " + str(make_squares([-2, -1, 0, 2, 3])))
     print("Squares: " + str(make_squares([-3, -1, 0, 1, 2])))
 
-    print("Squares: " + str(make_squares1([-2, -1, 0, 2, 3])))
-    print("Squares: " + str(make_squares1([-3, -1, 0, 1, 2])))
+    print("Squares: " + str(make_squares_soln([-2, -1, 0, 2, 3])))
+    print("Squares: " + str(make_squares_soln([-3, -1, 0, 1, 2])))
 
 
 main()
