@@ -1,0 +1,11 @@
+[project]
+name = "bol"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anki>=25.7.5",
+    "notebook>=7.4.5",
+    "zstandard>=0.24.0",
+]
